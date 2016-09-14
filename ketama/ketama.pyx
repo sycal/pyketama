@@ -1,7 +1,7 @@
 from libc.stdlib cimport malloc, free
 from libc.string cimport memcpy
 
-DEF SLOT_LEN = 37
+DEF SLOT_LEN = 40
 
 cdef extern from "ketama.h":
     ctypedef struct continuum_t:

@@ -1,7 +1,7 @@
 #ifndef KETAMA_H__
 #define KETAMA_H__
 
-#define SLOT_LEN 37
+#define SLOT_LEN 40
 
 typedef int (*compfn)(const void*, const void*);
 
